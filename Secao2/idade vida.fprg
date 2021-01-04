@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Adriana"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-12-14 12:46:24 "/>
+        <attribute name="created" value="QWRyaWFuYTtERVNLVE9QLUZIVDZJS0I7MjAyMC0xMi0xNDsiMTI6Mzc6MjUgIjsyOTUy"/>
+        <attribute name="edited" value="QWRyaWFuYTtERVNLVE9QLUZIVDZJS0I7MjAyMC0xMi0xNDsiMTI6NDY6MjQgIjsxOzMwNTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <input variable="idade"/>
+            <output expression="&quot;Voc&#234; j&#225; viveu&quot; &amp; (idade*365) &amp; &quot;dias!&quot;" newline="True"/>
+            <output expression="&quot;Voc&#234; ainda vai viver&quot; &amp; (80 - idade) &amp; &quot;anos!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

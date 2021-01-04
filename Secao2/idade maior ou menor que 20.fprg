@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Adriana"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-12-14 01:12:57 "/>
+        <attribute name="created" value="QWRyaWFuYTtERVNLVE9QLUZIVDZJS0I7MjAyMC0xMi0xNDsiMDE6MDc6NDggIjsyOTUy"/>
+        <attribute name="edited" value="QWRyaWFuYTtERVNLVE9QLUZIVDZJS0I7MjAyMC0xMi0xNDsiMDE6MTI6NTcgIjsxOzMwNTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <input variable="idade"/>
+            <output expression="&quot;Voc&#234; j&#225; viveu&quot; &amp; (idade*365) &amp; &quot;dias!&quot;" newline="True"/>
+            <if expression="idade &lt; 20">
+                <then>
+                    <output expression="&quot; Relaxa voc&#234; &#233; jovem e ainda vai viver pra caramba!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; ainda vai viver&quot; &amp; (80 - idade)*365 &amp; &quot;dias!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
